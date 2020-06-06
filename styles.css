@@ -1,0 +1,40 @@
+body {
+    background-color: #ced0ce;
+    min-height: 100vh;
+    text-align: center;
+    padding: 100px;
+}
+.container {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 60vw;
+    padding: 40px;
+    height: 55vh;
+    border-left: 3px solid #f15025;
+}
+.quote-text {
+    min-height: 20vh;
+}
+.container h1 {
+    font-size: 50px;
+    text-align: left;
+}
+.container p {
+    text-transform: capitalize;
+    color: #f1917a;
+    text-align: right;
+    font-style: italic;
+    font-size: 30px;
+}
+#btn {
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #191716;
+    color: #f15025;
+    text-transform: uppercase;
+}
+#btn:hover {
+    color: #191716;
+    background-color: #f15025;
+}
